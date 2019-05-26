@@ -2,10 +2,10 @@
 Styled Components minimal starter theme for React
 [https://styled-starter.netlify.com/](https://styled-starter.netlify.com/)
 
-###1. Install Dependencies
+### 1. Install Dependencies
 npm i --save styled-components styled-system styled-media-query polished
 
-###2. Config your theme variables
+### 2. Config your theme variables
 
 ./config/breakpoints.js
 
@@ -139,7 +139,7 @@ export const theme = {
 };
 ```
 
-###3. Include theme.js on ThemeProvider
+### 3. Include theme.js on ThemeProvider
 
 ```
 <ThemeProvider theme={theme}>
@@ -147,7 +147,7 @@ export const theme = {
 </ThemeProvider>
 ```
             
-###4. Include <Style/> component from ./index.js inside ThemeProvider
+### 4. Include <Style/> component from ./index.js inside ThemeProvider
 
 ```
 <ThemeProvider theme={theme}>
