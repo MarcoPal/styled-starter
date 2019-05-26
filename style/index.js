@@ -89,7 +89,6 @@ function mediaFontSize (sizes) {
   if (typeof sizes !== 'object') return sizes;
 
   const screensKeys = Object.keys(screens);
-  screensKeys.splice(0, 1);
 
   const base = css`font-size: ${sizes[0] / 10}rem`;
   sizes.splice(0, 1);
